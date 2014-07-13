@@ -1,0 +1,60 @@
+
+div.leftfade{
+  animation:leftin 4s;
+  -webkit-animation:leftin 4s; /* Safari and Chrome */
+}
+div.rightfade{
+  animation:rightin 4s;
+  -webkit-animation:rightin 4s; /* Safari and Chrome */
+}
+div.bottomfade{
+  animation:bottomin 4s;
+  -webkit-animation:bottomin 4s; /* Safari and Chrome */
+}
+
+@keyframes leftin
+{
+0% {left:-1000px;top:0px;}
+50%{left:-200px;top:0px;}
+65%{left:-120px;top:-100px;}
+85%{left:-20px;top:0px;}
+90%{left:-20px;top:-50px;}
+100%  {left:0px;top:0px;}
+}
+@-webkit-keyframes leftin /* Safari and Chrome */
+{
+0% {left:-1000px;top:0px;}
+50%{left:-200px;top:0px;}
+65%{left:-120px;top:-100px;}
+85%{left:-20px;top:0px;}
+90%{left:-20px;top:-50px;}
+100%  {left:0px;top:0px;}
+}
+@keyframes rightin
+{
+0% {right:-1000px;top:0px;}
+50%{right:-200px;top:0px;}
+65%{right:-120px;top:-100px;}
+85%{right:-20px;top:0px;}
+90%{right:-20px;top:-50px;}
+100%  {right:0px;top:0px;}
+}
+@-webkit-keyframes rightin /* Safari and Chrome */
+{
+0% {right:-1000px;top:0px;}
+50%{right:-200px;top:0px;}
+65%{right:-120px;top:-100px;}
+85%{right:-20px;top:0px;}
+90%{right:-20px;top:-50px;}
+100%  {right:0px;top:0px;}
+}
+@keyframes bottomin
+{
+from {bottom:-1000px;}
+to {bottom:0px;}
+}
+@-webkit-keyframes bottomin /* Safari and Chrome */
+{
+from {bottom:-1000px;}
+to {bottom:0px;}
+}

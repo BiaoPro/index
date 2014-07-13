@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title></title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="default" name="apple-mobile-web-app-status-bar-style">
+    <meta name="baidu-site-verification" content="EQyynpwS3A" />
+    <meta name="apple-itunes-app" content="app-id=847334708"/>
+      <meta content="width=device-width" name="viewport">
+  <link rel="stylesheet" type="text/css" href="http://img.app.meitudata.com/meitumv/css/meipai.pc.v2.min.css?195">
+
+
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.css">
+<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/blog.css">
+<link rel="stylesheet" type="text/css" href="css/my.css">
+<link rel="stylesheet" type="text/css" href="css/animation.css">
+<script src="js/jquery.js"></script>
+</head>
+<body class="bg2b2931 index">
+
+    <div class="index-top">
+
+        <div id="videoWrap" class="video-wrap">
+            <div id="mpbackgroud"></div>
+        </div>
+
+        <div class="index-shadow">
+            <div class="bl"></div>
+            <div class="br"></div>
+        </div>
+</div>
+       
+
+    <div class="container">
+
+       <div class="polaroid rotate_left leftfade">
+            <img  draggable="true" src="http://www.w3school.com.cn/i/ballade_dream.jpg" alt="郁金香" width="284" height="213" />
+            <p class="caption">上海鲜花港的郁金香，花名：Ballade Dream。</p>
+        </div>
+
+        <div class="polaroid rotate_right bottomfade">
+            <img  draggable="true" src="http://www.w3school.com.cn/i/china_pavilion.jpg" alt="世博中国馆" width="284" height="213" />
+            <p class="caption">2010年上海世博会，中国馆。</p>
+       </div>
+
+       <div class="polaroid rotate_left rightfade">
+            <img  draggable="true" src="http://www.w3school.com.cn/i/ballade_dream.jpg" alt="郁金香" width="284" height="213" />
+            <p class="caption">上海鲜花港的郁金香，花名：Ballade Dream。</p>
+        </div>
+
+
+
+ <div class="detail-line">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="center"></div>
+ </div>
+
+ <div class="container">
+    <div class="row polaroid">
+        <div class="col-xs-4" >
+            <img class="me" src="img/me.jpg"></img>
+            </p>
+        </div>
+        <div class="col-xs-8">
+            <p>
+            <div class="well">全名：吴泽标</div><br>
+            <div class="well">生日：11月28日</div><br>
+            <div class="well">E-mail: 498651300@qq.com</div><br>
+            </p>
+        </div>
+    </div>
+
+ </div>
+
+    <div class="detail-line">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="center"></div>
+    </div>
+
+
+    
+
+
+<link rel="stylesheet" href="http://img.app.meitudata.com/meitumv/mtplayer/css/meipai.player.min.css?2">
+<script src="http://img.app.meitudata.com/meitumv/mtplayer/js/meipai.player.min.js?3"></script>
+
+<script>
+    (function() {
+        var player = new MTPlayer({
+            width: 856,
+            height: 489,
+            src: 'http://img.app.meitudata.com/meitumv/mv/bg1.mp4'
+        });
+        player.loadingBarEnabled = 0;
+        player.hasCtrlBar = 0;
+        player.on('replace', function() {
+            player.css({
+                width: '1224px',
+                height: '689px'
+            });
+        });
+        player.replaceTo('mpbackgroud');
+
+        setTimeout(function() {
+            $('.video-wrap-layout').animate({opacity:0.4}, 1000, function() {
+               $(this).find('img').css({opacity: 0});
+            });
+        }, 1000);
+     })();
+     
+ </script>
+</body>
+</html>
