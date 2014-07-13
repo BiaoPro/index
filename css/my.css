@@ -1,0 +1,113 @@
+
+.my-head{
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(1px,1px,1px,.1);
+          box-shadow: inset 0 -2px 5px rgba(1px,1px,1px,.1);
+		  height:200px;
+}
+
+.well{
+  font-size: 20px;
+  font-family: "幼圆";
+  text-align: center;
+}
+.bg2b2931{background:#2b2931}
+.detail-line{width:100%;position:relative;font-size:0}
+.detail-line .left{position:absolute;width:50%;height:4px;left:0;top:0;background:#ff7e51;z-index:0}
+.detail-line .right{position:absolute;width:50%;height:4px;right:0;top:0;background:#a480ff;z-index:0}
+.detail-line .center{position:relative;z-index:1;height:4px;background:url(http://img.app.meitudata.com/meitumv/images/detail/line.png) no-repeat center}
+.index-shadow{width:1230px;height:1000px;position:absolute;z-index:1;left:50%;margin-left:-615px;top:0}
+.index-shadow .bl{height:1000px;width:100px;float:left;background:url(http://img.app.meitudata.com/meitumv/images/index/b_l.png)}
+.index-shadow .br{height:1000px;width:100px;float:right;background:url(http://img.app.meitudata.com/meitumv/images/index/b_r.png)}
+.index-top{position:relative;overflow:hidden;background-color:#000;min-width:1000px}
+.index-top .logo{width:326px;height:120px;background-position:0 -358px;position:absolute;z-index:2;left:50%;top:20%;margin-left:-163px;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img.app.meitudata.com/meitumv/images/index/ie6_top_logo.png')}
+.index-top .play{width:206px;height:70px;background-position:9px -500px;position:absolute;left:50%;top:50%;margin-left:-103px;z-index:2;cursor:pointer;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img.app.meitudata.com/meitumv/images/index/ie6_top_txt.png')}
+.index-top .play:hover{background-position:-222px -500px;_background:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img.app.meitudata.com/meitumv/images/index/ie6_top_txt.png')}
+.video-wrap{position:relative;z-index:0;margin:0 auto;text-align:center;height:689px}
+
+
+.meipaiplay-wrap{display:inline-block;position:relative;overflow:hidden;padding:0;margin:0}
+
+.me{
+padding:0px;
+position:relative;
+border:1px solid #BFBFBF;
+background-color:white;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+/* Add box-shadow */
+box-shadow:8px 8px 10px #aaaaaa;
+
+float: left;
+-webkit-transition: -webkit-transform 4s,opacity 4s,background 4s,width 4s,height 4s,font-size 4s;
+-webkit-border-radius: 5px;
+-o-transition-property: width,height,-o-transform,background,font-size,opacity;
+-o-transition-duration: 4s,4s,4s,4s,4s,4s;
+-moz-transition-property: width,height,-o-transform,background,font-size,opacity;
+-moz-transition-duration: 4s,4s,4s,4s,4s,4s;
+transition-property: width,height,transform,background,font-size,opacity;
+transition-duration: 4s,4s,4s,4s,4s,4s;
+}
+.me:hover{
+  transform:rotate(360deg);
+  -webkit-transform:rotate(-360deg);
+}
+
+img{
+    border-radius: 8px;
+}
+
+div.polaroid
+{
+padding:10px 10px 20px 10px;
+margin: 50px 0 50px 0;
+position:relative;
+border:1px solid #BFBFBF;
+background-color:white;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+/* Add box-shadow */
+box-shadow:2px 2px 3px #aaaaaa;
+z-index: 100;
+
+}
+
+div.rotate_left
+{
+float:left;
+-ms-transform:rotate(7deg); /* IE 9 */
+-moz-transform:rotate(7deg); /* Firefox */
+-webkit-transform:rotate(7deg); /* Safari and Chrome */
+-o-transform:rotate(7deg); /* Opera */
+transform:rotate(7deg);
+}
+
+div.rotate_right
+{
+float:left;
+-ms-transform:rotate(-8deg); /* IE 9 */
+-moz-transform:rotate(-8deg); /* Firefox */
+-webkit-transform:rotate(-8deg); /* Safari and Chrome */
+-o-transform:rotate(-8deg); /* Opera */
+transform:rotate(-8deg);
+}
+
+div.polaroid:hover{
+opacity:0.8;
+-ms-transform:rotate(0deg); /* IE 9 */
+-moz-transform:rotate(0deg); /* Firefox */
+-webkit-transform:rotate(0deg); /* Safari and Chrome */
+-o-transform:rotate(0deg); /* Opera */
+transform:rotate(0deg);
+}
+
+.my-footer,.my-hr  {
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  background-color: #428bca;
+  border-top: 1px solid #e5e5e5;
+}
+.my-footer,.my-hr  p:last-child {
+  margin-bottom: 0;
+}
